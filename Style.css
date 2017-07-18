@@ -33,11 +33,75 @@ p {
 }
 .button {
     background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
+    border:groove;
+    
+    padding: 70px 30px;
     text-align: center;
-    text-decoration: none;
+    
     display: inline-block;
-    font-size: 16px;
+    font-size: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+img {
+    
+    width: 100%;
+    height: auto;
+    padding:30px 0px 30px 0px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-shadow:inherit;
+
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+div {
+    text-wrap: normal;
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    /*border-spacing:10px 50px;*/
+    margin:20px 30px 40px 50px;
+}
+#divPics {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 1px; /* Firefox */
+    column-rule-width: 1px;
+    align-items:center;
+}
+#crash {
+    display: block;
+    margin: auto;
+    width: 50%;
 }
